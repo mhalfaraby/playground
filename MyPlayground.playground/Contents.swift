@@ -21,7 +21,7 @@ tambahPenumpang(namaPenumpang: "asd")
 
 let jumlahPenumpang = penumpang.count
 
-for i in 1..<jumlahPenumpang {
+for i in 0..<jumlahPenumpang {
     print("hello \(penumpang[i])")
 }
 
