@@ -1,66 +1,38 @@
 
 import UIKit
-
-var penumpang = ["aby" ,"", "indra" ]
-
-func tambahPenumpang (namaPenumpang: String) -> [String]  {
-    if penumpang.isEmpty {
-        penumpang.append(namaPenumpang)
-        return penumpang
-    }
-    else {
-        let jumlahPenumpang = penumpang.count
-        for i in 0..<jumlahPenumpang {
-            if penumpang[i] == "" {
-                penumpang[i] = namaPenumpang
-                return penumpang
-            }
-            else if penumpang[i] == namaPenumpang{
-                
-                print("\(namaPenumpang) sudah ada di dalam ")
-                return penumpang
-                
-            }
-            else if i == jumlahPenumpang - 1 {
-                penumpang.append(namaPenumpang)
-            }
-        }
-        
-    }
-    return penumpang
-
-    
-}
-
-
-tambahPenumpang(namaPenumpang: "aby")
-
-print(penumpang)
-//let jumlahPenumpang = penumpang.count
 //
-//for i in 0..<jumlahPenumpang {
-//    print("hello \(penumpang[i])")
-//}
-
-
-//tambahPenumpang(namaPenumpang: "asd")
-//tambahPenumpang(namaPenumpang: "oden")
-//tambahPenumpang(namaPenumpang: "aby")
-//tambahPenumpang(namaPenumpang: "gokil")
-
+//for i in 1...5{
+//    for _ in 1...i{
+//        print("a",terminator:"")
+//    }
 //
-//for _ in penumpang {
-//    print("hello\(penumpang)")
+//    print(" ")
+//
 //}
-
-
-
 
 //let names = ["Anna", "Alex", "Brian", "Jack"]
 //for name in names {
 //    print("Hello, \(name)!")
 //}
+
+//let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
+//for (animalName, legCount) in numberOfLegs {
+//    print("\(animalName)s have \(legCount) legs")
+//}
+
+//let base = 3
+//let power = 10
+//var answer = 1
+//for _ in 1...power {
+//    answer *= base
+//}
 //
-
-
-
+//var index = ["aby","indra","yosep"]
+//for asd in index {
+//    print("hello \(asd)")
+//}
+//
+//var namesAndScores = ["Anna": 2, "Brian": 2, "Craig": 8, "Donna": 6]
+//for (player, hit) in namesAndScores.joined {
+//    print("\(player),\(hit) ", separator:".")
+//}
