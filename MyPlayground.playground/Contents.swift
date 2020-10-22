@@ -6,3 +6,4 @@ for (animalName, legCount) in numberOfLegs {
 }
 
 print("hello world")
+print("hello")
