@@ -5,5 +5,5 @@ for (animalName, legCount) in numberOfLegs {
     print("\(animalName)s have \(legCount) legs")
 }
 
-print("hello world")
+print("hello")
 print("wowkeren")
