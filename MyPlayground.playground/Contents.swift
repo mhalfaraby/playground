@@ -1,7 +1,13 @@
 struct aby {
-    var berat = 50
-    var tinggi = 168
+    var berat: Int
+    var tinggi: Int
+   
     
 }
+
+var orang = aby(berat: 50, tinggi: 168)
+
+print(orang.berat)
+print(orang.tinggi)
 
 
