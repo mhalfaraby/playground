@@ -1,28 +1,3 @@
-//import Foundation
-//let headers = ["key": "10b472cf0acb29938c934c80f7ac5323"]
-//
-//let request = NSMutableURLRequest(url: NSURL(string: "https://api.rajaongkir.com/starter/city?id=12")! as URL,
-//                                        cachePolicy: .useProtocolCachePolicy,
-//                                    timeoutInterval: 10.0)
-//request.httpMethod = "GET"
-//request.allHTTPHeaderFields = headers
-//
-//let session = URLSession.shared
-//let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
-//  if (error != nil) {
-//    print(error!)
-//  }
-//    if let safeData = data {
-//        let dataString = String(data: safeData, encoding: .utf8)
-//        print(dataString!)
-//
-//    }
-//  }
-//)
-
-dataTask.resume()
-
- 
 import Foundation
 
 let headers = [
