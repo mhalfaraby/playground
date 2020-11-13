@@ -13,6 +13,7 @@
 		57C7468E255904DB006A7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C7468C255904DB006A7BAF /* Main.storyboard */; };
 		57C74690255904DC006A7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7468F255904DC006A7BAF /* Assets.xcassets */; };
 		57C74693255904DC006A7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C74691255904DC006A7BAF /* LaunchScreen.storyboard */; };
+		57D39011255EB28300497BF0 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D39010255EB28300497BF0 /* FunctionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57C7468F255904DC006A7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C74692255904DC006A7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C74694255904DC006A7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D39010255EB28300497BF0 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				57C7468F255904DC006A7BAF /* Assets.xcassets */,
 				57C74691255904DC006A7BAF /* LaunchScreen.storyboard */,
 				57C74694255904DC006A7BAF /* Info.plist */,
+				57D39010255EB28300497BF0 /* FunctionViewController.swift */,
 			);
 			path = dummyplaygroundiOS;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D39011255EB28300497BF0 /* FunctionViewController.swift in Sources */,
 				57C7468B255904DB006A7BAF /* ViewController.swift in Sources */,
 				57C74687255904DB006A7BAF /* AppDelegate.swift in Sources */,
 				57C74689255904DB006A7BAF /* SceneDelegate.swift in Sources */,

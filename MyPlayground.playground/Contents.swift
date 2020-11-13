@@ -1,38 +1,39 @@
 
-
-
-
-
-
 import Foundation
 
-struct array {
-    
-    let city_name: String
-    let city_id: String
-    
-}
+//[RajaOngkirLatihanApi.AKHIR(service: "CTC", description: "JNE City Courier", cost: [RajaOngkirLatihanApi.TAI(value: 8000, etd: "2-3", note: "")]),
+//
+// RajaOngkirLatihanApi.AKHIR(service: "CTCYES", description: "JNE City Courier", cost: [RajaOngkirLatihanApi.TAI(value: 18000, etd: "1-1", note: "")])]
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//2
+//
+//
+////print(harga[0].costs.count)
+//
+//
 
 
-var new = [(city_name: "Buleleng", city_id: "94"), (city_name: "Denpasar", city_id: "114"), (city_name: "Gianyar", city_id: "128")]
+var aby = [(service: "CTC", description: "JNE City Courier", cost: [(value: 8000, etd: "2-3", note: "")]) ,(service: "CTCYES", description: "JNE City Courier", cost: [(value: 18000, etd: "1-1", note: "")]) ]
+
+//
+//var tes = 0
+//
+//
+//tes = aby[0].cost[0].value
+//
+//print(tes)
 
 
-var kosong = [String]()
-
-
-new.forEach {(new) in
- 
-    kosong.append(new.city_id)
-    kosong.append(new.city_name)
-    
-}
-
-print(kosong)
-
-
-
-
-
+print(aby[0])
 
 
 
