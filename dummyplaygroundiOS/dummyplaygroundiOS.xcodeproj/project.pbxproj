@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578B49AF2563C9FD00E5F464 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578B49AD2563C9FD00E5F464 /* ResultTableViewController.swift */; };
 		57C74687255904DB006A7BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C74686255904DB006A7BAF /* AppDelegate.swift */; };
 		57C74689255904DB006A7BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C74688255904DB006A7BAF /* SceneDelegate.swift */; };
 		57C7468B255904DB006A7BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7468A255904DB006A7BAF /* ViewController.swift */; };
 		57C7468E255904DB006A7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C7468C255904DB006A7BAF /* Main.storyboard */; };
 		57C74690255904DC006A7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7468F255904DC006A7BAF /* Assets.xcassets */; };
 		57C74693255904DC006A7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C74691255904DC006A7BAF /* LaunchScreen.storyboard */; };
-		57D39011255EB28300497BF0 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D39010255EB28300497BF0 /* FunctionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CC94C8A02AE9D7A264FD24C /* Pods-dummyplaygroundiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dummyplaygroundiOS.debug.xcconfig"; path = "Target Support Files/Pods-dummyplaygroundiOS/Pods-dummyplaygroundiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		578B49AD2563C9FD00E5F464 /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
 		57C74683255904DB006A7BAF /* dummyplaygroundiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dummyplaygroundiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C74686255904DB006A7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C74688255904DB006A7BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +27,8 @@
 		57C7468F255904DC006A7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C74692255904DC006A7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C74694255904DC006A7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57D39010255EB28300497BF0 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		B3F5673969BB0DC8A9862E75 /* Pods-dummyplaygroundiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dummyplaygroundiOS.release.xcconfig"; path = "Target Support Files/Pods-dummyplaygroundiOS/Pods-dummyplaygroundiOS.release.xcconfig"; sourceTree = "<group>"; };
+		D97540F229E17CEE9B93A8F5 /* Pods_dummyplaygroundiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dummyplaygroundiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 			children = (
 				57C74685255904DB006A7BAF /* dummyplaygroundiOS */,
 				57C74684255904DB006A7BAF /* Products */,
+				867C57CA566925A832573C13 /* Pods */,
+				A5793376AD316D7DB39CE635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +67,29 @@
 				57C74688255904DB006A7BAF /* SceneDelegate.swift */,
 				57C7468A255904DB006A7BAF /* ViewController.swift */,
 				57C7468C255904DB006A7BAF /* Main.storyboard */,
+				578B49AD2563C9FD00E5F464 /* ResultTableViewController.swift */,
 				57C7468F255904DC006A7BAF /* Assets.xcassets */,
 				57C74691255904DC006A7BAF /* LaunchScreen.storyboard */,
 				57C74694255904DC006A7BAF /* Info.plist */,
-				57D39010255EB28300497BF0 /* FunctionViewController.swift */,
 			);
 			path = dummyplaygroundiOS;
+			sourceTree = "<group>";
+		};
+		867C57CA566925A832573C13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC94C8A02AE9D7A264FD24C /* Pods-dummyplaygroundiOS.debug.xcconfig */,
+				B3F5673969BB0DC8A9862E75 /* Pods-dummyplaygroundiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5793376AD316D7DB39CE635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97540F229E17CEE9B93A8F5 /* Pods_dummyplaygroundiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C74697255904DC006A7BAF /* Build configuration list for PBXNativeTarget "dummyplaygroundiOS" */;
 			buildPhases = (
+				256E6400D8DEC7F99B5B3124 /* [CP] Check Pods Manifest.lock */,
 				57C7467F255904DB006A7BAF /* Sources */,
 				57C74680255904DB006A7BAF /* Frameworks */,
 				57C74681255904DB006A7BAF /* Resources */,
@@ -135,13 +158,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		256E6400D8DEC7F99B5B3124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dummyplaygroundiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57C7467F255904DB006A7BAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D39011255EB28300497BF0 /* FunctionViewController.swift in Sources */,
 				57C7468B255904DB006A7BAF /* ViewController.swift in Sources */,
+				578B49AF2563C9FD00E5F464 /* ResultTableViewController.swift in Sources */,
 				57C74687255904DB006A7BAF /* AppDelegate.swift in Sources */,
 				57C74689255904DB006A7BAF /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +335,7 @@
 		};
 		57C74698255904DC006A7BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC94C8A02AE9D7A264FD24C /* Pods-dummyplaygroundiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +355,7 @@
 		};
 		57C74699255904DC006A7BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F5673969BB0DC8A9862E75 /* Pods-dummyplaygroundiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
